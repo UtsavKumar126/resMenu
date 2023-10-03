@@ -237,6 +237,9 @@ const links=document.getElementById("links");
 const div2=document.getElementById("div2");
 const logo=document.getElementById('logo');
 
+document.addEventListener("DOMContentLoaded",()=>{
+    div2.style.display="none";
+})
 function changeDis(){
     if(window.innerWidth<=657){
         but.style.display="inline";
