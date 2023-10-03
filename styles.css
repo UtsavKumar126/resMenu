@@ -1,0 +1,146 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#displayBut{
+    display: none;
+    padding: 2vh;
+        height:5vh;
+        width:2vw;
+        margin-right: 5vw;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width:100vw;
+    height:8vh;
+    margin-top: 2vh;
+    margin-left: -0.5vw;
+    /* border: 1px solid gray; */
+}
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    width:30vw;
+    height:8vh;
+}
+#links > div{
+    margin-right: 3vw;
+    width:25vw;
+    height: 3.5vh;
+}
+#famousFood{
+    height: 50vh;
+    width:90vw;
+    border:1px solid gray;
+    /* background-color: grey; */
+    border-radius: 3vw;
+    margin-top: 5vh;
+    background-image: url("./images/Rectangle\ 20rectangle.png");
+    background-repeat: no-repeat;
+    background-size: 90vw 50vh;
+}
+.fFood{
+    font-size: 3vh;
+    color: white;
+    font-weight: bold;
+    margin-left: -23vw;
+}
+#famousFood >div>p{
+    display: inline;
+}
+#searchBar{
+    display: grid;
+    grid-template-columns: 5.5fr 0.3fr;
+    width:90vw;
+    height: 5vh;
+    margin-left:5vw ;
+    justify-content: space-between;
+}
+.sortBut{
+    margin-left: 5vw;
+    padding: 2.5vh;
+    margin-top: 3vh;
+    border-radius: 1.5vh;
+    font-size: 4vh;
+    color: white;
+}
+#menu{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin-left: 5vw;
+    margin-top: 3vh;
+}
+#items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1vh;
+}
+#items > div {
+    border: 1px solid gray;
+    border-radius: 10%;
+}
+footer{
+    display: flex;
+    margin-left: 5vw;
+    margin-top: 20vh;
+    justify-content: space-around;
+    height: 30vh;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: grey;
+}
+#socials{
+    display: flex;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    justify-content: center;
+    align-items: center;
+}
+#items> div > img{
+    height: 35vh;
+    width: 23vw;
+    margin-top: 1vh;
+    margin-left: 1vw;
+    border-radius: 15%;
+}
+.itemIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.icons > p {
+    margin-right: 1vw;
+    font-size: 3vh;
+}
+.veg{
+    margin-left: 1vw;
+    font-size: 3vh;
+    color: grey;
+}
+.red-heart{
+    color:red;
+}
+#div2{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    width:50vw;
+    height:100vh;
+}
+
+
+
